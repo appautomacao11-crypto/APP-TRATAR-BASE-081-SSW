@@ -1671,11 +1671,11 @@ def tela_download():
     # processa_sswweb.py).
     if r.get("n_notas_em_rota", 0) > 0:
         caixa_atencao_laranja(
-            f"A aba \"Em rota\" traz {r['n_notas_em_rota']} CTRC(s) com código 85 "
-            f"(saída em rota de entrega). Esse número reflete o que já está em "
-            f"posse do parceiro/já foi manifestado pra ele — não necessariamente "
-            f"quem já saiu pra entrega de fato. Valide com o BI (Regional Status) "
-            f"antes de repassar, pois pode haver diferença.",
+            f"A aba \"Em rota\" traz {r['n_notas_em_rota']} CTRC(s) com código 85. "
+            f"Não avalie essa aba sozinha: cada parceiro usa uma API diferente e "
+            f"nem sempre a informação chega fidedigna. Antes de repassar, confirme "
+            f"pela tela 101 (Consultar CTRC) ou com o material do BI - Regional "
+            f"Status, solicitando ao analista responsável pela unidade.",
             icone="🛣️",
         )
 
