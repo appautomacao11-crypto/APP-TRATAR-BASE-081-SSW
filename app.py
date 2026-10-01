@@ -29,7 +29,7 @@ import processa_sswweb as robo
 # Pedido do Samuel em 28/08/2026 (mandou print marcando as faixas vazias).
 st.set_page_config(page_title="TRATAR BASE 081 - SSW", page_icon="📦", layout="wide")
 
-GITHUB_REPO = "appautomacao11-crypto/APP-TRATAR-BASE-081-SSW""
+GITHUB_REPO = "appautomacao11-crypto/APP-TRATAR-BASE-081-SSW"
 
 # ------------------------------------------------------------------
 # Fuso horário do Brasil (RN) - o servidor do Streamlit Cloud roda em
